@@ -28,7 +28,7 @@ public class ProductServiceImpl implements ProductService{
         lista2.add(p1);
         lista2.add(p2);
 
-        if(lista2.size() == 0){
+        if(lista2.size() == 0 && lista2.ifEmpty()){
             log.info("lista null");
             return Flux.fromIterable(new ArrayList<>());
         }else{
