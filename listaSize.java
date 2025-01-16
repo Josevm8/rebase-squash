@@ -17,12 +17,12 @@ public class ProductServiceImpl implements ProductService{
 
         Product p1 = new Product(1, "producto A", 20.0);
         Product p2 = new Product(2, "producto B", 10.0);
-/*
-Para representar una lista vacia se haria esto:
+
+        //Para representar una lista vacia se haria esto:
         Product p3 = new Product();
         Product p4 = new Product();
         List<Product> l1 = Arrays.asList();
- */
+
 
         ArrayList<Product> lista2 = new  ArrayList<>();
         lista2.add(p1);
